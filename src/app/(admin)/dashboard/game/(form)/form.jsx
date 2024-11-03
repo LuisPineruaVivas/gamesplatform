@@ -75,6 +75,19 @@ export default function GameForm({categories, game}) {
 
                 <div className="w-full">
                     <div>
+                        <label htmlFor="id" className="block mb-2 text-xs text-accent uppercase">ID</label>
+                            <input type="text" 
+                                id="id"
+                                name="id"
+                                readOnly
+                                className="bg-black border border-accent sm:text-sm rounded-lg focus:ring-primary-600 block w-full p-2 mb-4"
+                                placeholder="ID del juego"
+                                defaultValue={game ? game.id : ""}
+                            />
+
+                    </div>
+
+                    <div>
                         <label htmlFor="title" className="block mb-2 text-xs text-accent uppercase">Titulo</label>
                             <input type="text" 
                                 id="title"
@@ -121,12 +134,12 @@ export default function GameForm({categories, game}) {
                                 name="category"
                                 required
                                 className="bg-black border border-accent sm:text-sm rounded-lg focus:ring-primary-600 block w-full p-2 mb-4"
-                                defaultValue={game ? game.categories[0].id : ""}
+                                defaultValue={game ? game.categories[0]?.id : ""}
                             >
                                 {
                                     categories.map((category) => (
                                         <option key={category.id} value={category.id}>
-                                            {category.id === game?.categories[0].id ? game.categories[0].title : category.title}
+                                            {category.id === game?.categories[0]?.id ? game.categories[0].title : category.title}
                                         </option>
                                     ))
                                 }

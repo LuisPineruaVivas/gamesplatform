@@ -14,12 +14,6 @@
     height: 24px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('/icons/default.svg');
+    background-image: url('/icons/arcade.svg');
 
-    &.arcade {
-        background-image: url('/icons/arcade.svg');
-    }
-    &.atari {
-        background-image: url('/icons/arcade.svg');
-    }
 }

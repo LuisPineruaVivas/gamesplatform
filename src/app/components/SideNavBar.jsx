@@ -7,12 +7,12 @@ export default function SideNavBar( {categoryMenu} ) {
 
     const mainMenuItems = [
         {
-            name: "Home",
+            name: "Inicio",
             icon: HomeIcon, 
             slug: "/"
         },
         {
-            name: "New",
+            name: "Nuevos",
             icon: CubeIcon, 
             slug: "/new-games"
         },
