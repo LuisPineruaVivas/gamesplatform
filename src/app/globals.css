@@ -2,20 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@layer base {
+    html{
+        @apply text-slate-50
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Sidebar Category icons*/
+.categoryicon {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('/icons/default.svg');
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    &.arcade {
+        background-image: url('/icons/arcade.svg');
+    }
+    &.atari {
+        background-image: url('/icons/arcade.svg');
+    }
 }

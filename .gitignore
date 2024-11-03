@@ -19,6 +19,8 @@
 
 # production
 /build
+/src/app/(main)/test
+/src/app/(admin)/register
 
 # misc
 .DS_Store
