@@ -4,7 +4,7 @@ const nextConfig = {
     experimental: {
         serverActions: {
           // 👇 change file size limit
-          bodySizeLimit: "20MB", 
+          bodySizeLimit: "25MB", 
         },
       },
     images: {
