@@ -2,7 +2,8 @@ import Image from "next/image";
 import { getSearchResults } from "@/lib/gameQueries";
 
 export default async function Page(req) {
-    const searchQuery = await req.searchParams.q;
+    const medium  = await req.searchParams;
+    const searchQuery = await medium.q;
 
     let games = [];
     if (searchQuery) {
@@ -19,8 +20,8 @@ export default async function Page(req) {
             <ul>
                 {games.map((game) => (
                     <li key={game.id} className="mb-2">
-                        <a href={`/games/${game.slug}`} className="flex bg-main hover:bg-accent-secondary p-4 rounded-lg gap-4">
-                            <Image src={`/game/${game.image}`} alt={game.title} className="w-2/6 lg:1/6 roundend-md" width={300} height={300} quality={50} />
+                        <a href={`/game/${game.slug}`} className="flex bg-main hover:bg-accent-secondary p-4 rounded-lg gap-4">
+                            <Image src={`${process.env.NEXT_PUBLIC_IMAGE_SOURCE}/thumbnail/${game.image}`} alt={game.title} className="w-2/6 lg:1/6 roundend-md" width={300} height={300} quality={50} />
                             <div className="flex flex-col gap-4">
                                 <h2 className="text-xl">
                                     {game.title}

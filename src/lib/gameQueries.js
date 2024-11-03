@@ -83,7 +83,8 @@ export async function getSearchResults(params) {
     return await prisma.game.findMany({
         where: {
             title: {
-                contains: params
+                contains: params,
+                mode: "insensitive"
             }
         },
         take: 100
