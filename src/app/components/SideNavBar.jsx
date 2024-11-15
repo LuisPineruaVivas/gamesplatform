@@ -12,9 +12,9 @@ export default function SideNavBar( {categoryMenu} ) {
             slug: "/"
         },
         {
-            name: "Nuevos",
+            name: "Juegos",
             icon: CubeIcon, 
-            slug: "/new-games"
+            slug: "/games"
         },
 ]
 

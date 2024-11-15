@@ -36,7 +36,7 @@ export default function HeroSlider() {
                         </div>
                         <h1 className='font-display text-4xl lg:text-6xl mb-4'>Tus juegos <br/> retro favoritos</h1>
                         <p className='mb-6 max-w-[418px]'> Revive los clasicos! Sumergete en nuestra coleccion de juegos retros y disfrutalos gratis. COMIENZA A JUGAR AHORA!</p>
-                        <a href="#" className='text-sm text-black bg-accent-gradient py-3 px-7 rounded-xl border border-yellow-400 uppercase'>Juega al super Mario</a>
+                        <a href="/games" className='text-sm text-black bg-accent-gradient py-3 px-7 rounded-xl border border-yellow-400 uppercase'>Juega ahora</a>
 
                     </div>
 
