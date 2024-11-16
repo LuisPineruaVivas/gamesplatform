@@ -3,7 +3,7 @@ import { getAllGames } from "@/lib/gameQueries";
 export const revalidate = 3600;
 
 export default async function sitemap() {
-    const games = await getAllGames();
+    const{ games, totalPages} = await getAllGames();
 
     const items = games.map((item) => ({
         url: `${process.env.NEXT_WEBSITE_URL}/game/${item.slug}`,
