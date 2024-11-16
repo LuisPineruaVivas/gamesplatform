@@ -26,11 +26,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Screenshots
 
-![image alt](https://github.com/LuisPineruaVivas/Web_Peliculas_React/blob/8c975e22a27d31fd3dfa8c4ececb55b372b7d375/public/page/Landing.png)
+![image alt](https://github.com/LuisPineruaVivas/gamesplatform/blob/cbfb6b7ce6ddcbd6409755e1103df8fefacb5a53/public/page/Landing.png)
 
-![image alt](https://github.com/LuisPineruaVivas/Web_Peliculas_React/blob/8c975e22a27d31fd3dfa8c4ececb55b372b7d375/public/page/Games.png)
+![image alt](https://github.com/LuisPineruaVivas/gamesplatform/blob/cbfb6b7ce6ddcbd6409755e1103df8fefacb5a53/public/page/Games.png)
 
-![image alt](https://github.com/LuisPineruaVivas/Web_Peliculas_React/blob/8c975e22a27d31fd3dfa8c4ececb55b372b7d375/public/page/Game.png)
+![image alt](https://github.com/LuisPineruaVivas/gamesplatform/blob/cbfb6b7ce6ddcbd6409755e1103df8fefacb5a53/public/page/Game.png)
 
 
 ## Deploy on Vercel
