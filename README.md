@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Retro Games Platform
+
+Retro games website developed with Next.js, This is a retro games website where you can play retro games on internet without download anything
+
+Check a Live Preview here : [https://plataformaretrogames.vercel.app/]
+
+## Requirements
+### `NextJs` Framework
+### `Neon Platform and Prisma` Database
+### `AWS Cloud` Storage container
 
 ## Getting Started
 
@@ -13,24 +22,16 @@ pnpm dev
 # or
 bun dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![image alt](https://github.com/LuisPineruaVivas/Web_Peliculas_React/blob/8c975e22a27d31fd3dfa8c4ececb55b372b7d375/public/page/Landing.png)
 
-## Learn More
+![image alt](https://github.com/LuisPineruaVivas/Web_Peliculas_React/blob/8c975e22a27d31fd3dfa8c4ececb55b372b7d375/public/page/Games.png)
 
-To learn more about Next.js, take a look at the following resources:
+![image alt](https://github.com/LuisPineruaVivas/Web_Peliculas_React/blob/8c975e22a27d31fd3dfa8c4ececb55b372b7d375/public/page/Game.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
